@@ -1,0 +1,14 @@
+.form-group{
+	.small-search{
+		&.input-group{
+			.input-group-btn{
+				.btn-default{
+					padding: 5px 15px 5px 15px;
+					border:none;
+					border-radius:0px;
+					height:30px;
+				}
+			}
+		}
+	}
+}

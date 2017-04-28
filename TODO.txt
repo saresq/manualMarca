@@ -1,0 +1,6 @@
+﻿>>Existe la tecla enter<<
+-AGREGAR ICONOS DE PONCHO
+	-> DE DONDE SALEN LOS ICONOS?? NO ESTÁN EN EL FRAMEWORK 
+
+
+-QUE ACUERDO AUTOMOTRIZ SE PAREZCA A html5up.net/big-picture

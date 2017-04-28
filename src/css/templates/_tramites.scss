@@ -1,0 +1,71 @@
+html{
+	overflow-x:hidden;
+}
+
+main{
+    min-height: -webkit-calc(100vh - 224px);
+    min-height:    -moz-calc(100vh - 224px);
+    min-height:         calc(100vh - 224px);
+}
+
+#filter-options{
+
+	&.collapse{
+		&.navbar-collapse{
+			padding: 0px;
+			margin-right: -15px;
+			margin-left: -15px;
+		}
+	}
+	:not(.before-select){
+		&:not(.active){
+			.panel-default{
+				background-color: rgba(60,60,60,0.2) !important;
+			    color: rgba(0,0,0,0.1) !important;
+			    box-shadow: none;
+			}
+		}
+	}
+	.active{
+		.panel-default{
+			box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+			background-color: white;
+			color: #111;
+		}
+	}
+	.before-select{
+		.panel-default{
+			box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+			background-color: white;
+			color: #111;
+		}
+	}
+}
+
+.tramite-detalles{
+	.panel-body{
+		p{
+			@media screen and (min-width:768px){
+				min-height: 50px;
+			}
+			@media screen and (min-width:992px){
+				min-height: 100px;
+			}
+		}
+	}
+}
+
+@media screen and (min-width:769px){
+
+	.categories{
+		display: none;
+	}
+}
+
+#grid{
+	.panel-body{
+		p{
+			font-size: 14px;
+		}
+	}
+}

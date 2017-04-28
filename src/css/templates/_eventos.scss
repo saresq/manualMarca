@@ -1,0 +1,98 @@
+body{
+	font-family: "Roboto", sans-serif !important;
+	overflow-x: hidden;
+}
+
+.icons-row{
+	text-align: center;
+	padding-top: 30px;
+	.btn{
+		i{
+			min-width: 25px;
+			font-size: 25px;
+		}
+	}
+}
+
+.jumbotron{
+	&.eventos{
+		height: 70vh;
+		background-position: center;
+		background-repeat: no-repeat;
+		.blue-overlay{
+			padding-top:80px;
+			padding-bottom: 80px;
+			margin-top: 13vh;
+			background-color: rgba(6, 149, 214,0.7);
+			text-transform: uppercase;
+
+			h1{
+				color:white;
+				margin: 0px;
+				font-size: 40px;
+			}
+			h2{
+				color:white;
+				margin: 0px;
+				font-size: 32px;
+			}
+			h3{
+				color:white;
+				margin: 0px;
+				font-size: 24px;
+			}
+
+			@media screen and (max-width: 600px) {
+
+				h1{
+					font-size: 26px !important;
+				}
+				h2{
+					font-size: 18px;
+				}
+				h3{
+					font-size: 18px;
+				}
+			}
+
+			.first-half{
+				text-align: right;
+				border-right: 4px solid white;
+				padding-right: 30px;
+			}
+			.second-half{
+				text-align: left;
+				padding-left: 30px;
+			}
+		}
+	}
+}
+
+.event-description{
+
+	text-align: center;
+	h4{
+		font-weight: normal;
+	}
+}
+
+.map-container{
+	padding-bottom: 0px;
+	#map {
+		height: 400px;
+		width: 100%;
+	}
+}
+
+.jscroll-loading{
+	text-align: center;
+	img{
+		width: 40px;
+	}
+}
+
+.main-footer{
+	&footer{
+		margin: 0px;
+	}
+}

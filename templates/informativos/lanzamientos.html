@@ -1,0 +1,209 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Template de Lanzamientos</title>
+    <link rel="shortcut icon" href="../../favicon.ico">
+
+    <!-- STYLE SHEETS -->
+    <link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../src/css/templates.css" rel="stylesheet">
+    <link href="../../src/css/video-gallery.css" rel="stylesheet">
+    <link href="../../dist/css/roboto-fontface.css" rel="stylesheet">
+    <link href="../../dist/css/poncho.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Burger</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                <a class="navbar-brand" href="#"><img src="../../img/logoMinisterio.png" height="50" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EL MINISTERIO <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="http://www.produccion.gob.ar/institucional/mision/">MISIÓN</a></li>
+                      <li><a href="http://www.produccion.gob.ar/institucional/el-ministro/">EL MINISTRO</a></li>
+                      <li><a href="http://www.produccion.gob.ar/institucional/organigrama/">ORGANIGRAMA</a></li>
+                      <li><a href="http://www.produccion.gob.ar/institucional/secretarias/secretaria-de-industria-2/">SECRETARIAS</a></li>
+                      <li><a href="http://www.produccion.gob.ar/institucional/subsecretarias/secretaria-de-industria/">SUBSECRETARIAS</a></li>
+                      <li><a href="http://www.produccion.gob.ar/casasdelaproduccion/">CASAS DE LA PRODUCCIÓN</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">TRÁMITES <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="http://www.produccion.gob.ar/guia-de-tramites/">TODOS</a></li>
+                      <li><a href="http://www.produccion.gob.ar/tramites-de-pymes/">PYME</a></li>
+                      <li><a href="http://www.produccion.gob.ar/tramites-de-emprendedores/">EMPRENDEDOR</a></li>
+                      <li><a href="http://www.produccion.gob.ar/tramites-de-consumidor/">CONSUMIDOR</a></li>
+                      <li><a href="http://www.produccion.gob.ar/tramites-comercio/">COMERCIO</a></li>
+                      <li><a href="http://www.produccion.gob.ar/tramites-de-industria/">INDUSTRIA</a></li>
+                      <li><a href="http://www.produccion.gob.ar/instituciones-productivas/">INSTITUCIONES</a></li>
+                    </ul>
+                  </li>
+                    <li><a href="http://www.produccion.gob.ar/sala-de-prensa/comunicados/">SALA DE PRENSA</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+    </nav>
+  </header>
+
+  <main role="main">
+
+    <section class="jumbotron derivador bg-info" style="background-image:none;">
+      <div class="container p-b-3">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 jumbotron_body">
+            <h2>TU MUNICIPIO PUEDE SER UNA CIUDAD PARA EMPRENDER</h2>
+            <p class="">Te ayudamos a fortalecer y desarrollar un ecosistema emprendedor en tu municipio a través de un plan de trabajo conjunto con incubadoras, clubes de emprendedores, gobierno, universidades, empresas, emprendedores y agencias de desarrollo.</p>
+            <button type="button" class="m-t-2 btn btn-primary ">PREINSCRIBÍ TU CIUDAD</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container text-center">
+        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 m-b-3">
+          <h3>TRABAJO EN EQUIPO</h3>
+          <p>El programa Ciudades para Emprender identifica el grado de desarrollo del ecosistema emprendedor en tu localidad gracias a una matriz de diagnóstico. Mirá algunos testimonios de emprendedores donde ya se aplicó el programa:</p>
+        </div>
+      </div>
+
+      <div class="reproductor">
+        <input id="open-thumbs" type="checkbox" class="reproductor__checkbox">
+        <div class="reproductor__frame">
+          <!--<label for="open-thumbs" class="reproductor__frame--label"></label>-->
+          <div class="reproductor__frame--play"></div>
+        </div>
+        <div class="reproductor__thumbs">
+          <ul class="lista"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="text-center col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 m-b-3">
+        <h3>DÓNDE FUNCIONA</h3>
+      </div>
+      <div class="map-container">
+        <div id="map"></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="text-center col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 m-b-3">
+        <h3>DÓNDE FUNCIONA</h3>
+      </div>
+      <iframe style="width: 100%;height: 550px;" src="http://dna2-tests.produccion.gob.ar/poncho/map/ciudades"></iframe>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="text-center col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 m-b-3">
+          <h3>HERRAMIENTAS EN TU CIUDAD</h3>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <a class="panel panel-default" target="_blank" href="http://186.33.211.56/emprendedores/">
+              <div style="background-image:url('../../img/placeholder.png');" class="panel-heading"></div>
+              <div class="panel-body">
+                <h3>Emprendedores</h3>
+                <p class="text-muted">quis nostrud exercitation ullamco laboris</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <a class="panel panel-default" href="#">
+              <div style="background-image:url('../../img/placeholder.png');" class="panel-heading"></div>
+              <div class="panel-body">
+                <h3>Este es el título del link</h3>
+                <p class="text-muted">quis nostrud exercitation ullamco laboris</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <a class="panel panel-default" href="#">
+              <div style="background-image:url('../../img/placeholder.png');" class="panel-heading"></div>
+              <div class="panel-body">
+                <h3>Este es el título del link</h3>
+                <p class="text-muted">quis nostrud exercitation ullamco laboris</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <a class="panel panel-default" href="#">
+              <div style="background-image:url('../../img/placeholder.png');" class="panel-heading"></div>
+              <div class="panel-body">
+                <h3>Este es el título del link</h3>
+                <p class="text-muted">quis nostrud exercitation ullamco laboris</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+  </main>
+
+  <!--position:fixed; bottom:-10px; width:100%; padding-top:40px;-->
+
+  <footer class="main-footer bg-primary" style="">
+    <div class="container">
+      <p>2016 | Ministerio de Producción | Hipólito Yrigoyen 250 | (C1086AAB)<br>CABA | Tel. 0800.333.7963</p>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
+
+  <script src="../../assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+  <script src="../../src/js/video-gallery.js" type="text/javascript"></script>
+  <script src="../../src/js/custom.js" type="text/javascript"></script>
+  <script src="../../src/js/mapinitmultiple.js" type="text/javascript"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIS-rpTTDk5qR_7kWYQu5HtC-QHEP2qJs&callback=initMap"></script>
+
+
+  <script type="text/javascript">
+    $('.scroll').jscroll({
+      autoTrigger: false,
+      loadingHtml: '<img class="loader" src="../../img/loader.gif"><img>'
+    });
+  </script>
+<!--
+  <script type="text/javascript" src="../../src/js/mapinitmultiple.js"></script>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIS-rpTTDk5qR_7kWYQu5HtC-QHEP2qJs&callback=initMap"></script>
+-->
+</body>
+</html>
+
+
+

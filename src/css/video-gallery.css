@@ -1,0 +1,122 @@
+/*
+  Desarrollado por @stivengordillor y @laweb_pro
+  Para: laweb.pro
+  Licencia: Puedes usarlo en cualquier proyecto pero cuentanos donde - si lo vas a vender piensa en ayudar a laweb.pro con una donación :)
+  Nota: Si puedes mejorarla cuentanos en twitter @laweb_pro
+  ¿QUIERES ESCRIBIR EN LAWEB.PRO? SIGUENOS EN TWITTER Y CUENTANOS COMO PUEDES AYUDAR :)
+  Actualizada: 17/Nov/2015
+*/
+body {
+  margin: 0px;
+  position: relative;
+}
+#open-thumbs:checked ~ .reproductor__frame {
+  transition: 0.4s all;
+  width: 100%;
+}
+#open-thumbs:checked ~ .reproductor__frame > .reproductor__frame--label {
+  background-position: 0px 50%;
+}
+#open-thumbs:checked ~ .reproductor__thumbs {
+  box-sizing: border-box;
+  padding: 1% 3%;
+  transition: 0.4s all;
+  width: 25%;
+}
+.reproductor {
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  display: block;
+  height: 350px;
+  margin: 20px auto;
+  max-width: 1024px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.reproductor .reproductor__checkbox {
+  display: none;
+}
+.reproductor .reproductor__frame {
+  height: 350px;
+  transition: 0.4s all;
+  overflow: hidden;
+  position: absolute;
+  width: 75%;
+  z-index: 2;
+}
+.reproductor .reproductor__frame iframe {
+  height: 350px;
+  width: 100%;
+}
+.reproductor .reproductor__frame .reproductor__frame--label {
+  background-color: #333;
+  background-position: -40px 50%;
+  background-image: url("../../img/asset-slide.png");
+  background-repeat: no-repeat;
+  border-radius: 10px 0px 0px 10px;
+  height: 40%;
+  position: absolute;
+  right: 0px;
+  top: 30%;
+  transition: 0.4s all;
+  width: 40px;
+  z-index: 999999;
+}
+.reproductor .reproductor__thumbs {
+  background-color: #fff;
+  box-sizing: border-box;
+  height: 100%;
+  overflow: auto;
+  padding: 1% 3%;
+  position: absolute;
+  right: 0px;
+  transition: 0.4s all;
+  width: 25%;
+  z-index: 1;
+}
+.reproductor .reproductor__thumbs ul {
+  padding: 0px;
+}
+.reproductor .reproductor__thumbs ul li {
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+.reproductor .reproductor__thumbs ul li figure {
+  display: block;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.reproductor .reproductor__thumbs ul li figure figcaption {
+  background: rgba(0,0,0,0.8);
+  bottom: 6px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 13px;
+  height: 40px;
+  padding: 5px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.reproductor .reproductor__thumbs ul li figure img {
+  height: auto;
+  width: 100%;
+}
+.reproductor .reproductor__thumbs::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #fff;
+}
+.reproductor .reproductor__thumbs::-webkit-scrollbar {
+  width: 6px;
+  background-color: #fff;
+}
+.reproductor .reproductor__thumbs::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #aaa;
+}

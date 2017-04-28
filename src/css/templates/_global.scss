@@ -1,0 +1,112 @@
+html, body{
+	height: auto !important;
+	min-height: 100% !important;
+}
+
+@media screen and (min-width: 769px){
+	.panel-icon{
+		.panel-body{
+			h3{
+				height: 54px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 420px){
+	.navbar{
+		&.navbar-default{
+			.container{
+				.navbar-header{
+					.navbar-brand{
+						img {
+						    width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 991px){
+
+	.panel-md{
+		.panel-body{
+			h4{
+				height: 42px;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 991px){
+
+	.panel-md{
+		.panel-body{
+			p{
+				height: 250px;
+			}
+		}
+	}
+}
+
+.btn{
+	.fa{
+		&.fa-3x{
+			font-size: 3em;
+		}
+	}
+}
+
+.panel-icon{
+	.panel-heading{
+		&.bg-white{
+			background-color: white;
+			i,p{
+				color: black;
+			}
+		}
+	}
+}
+
+.jumbotron{
+	&.derivador{
+		text-align: center;
+		p{
+			text-align: justify;
+			-moz-text-align-last: center;
+	    	text-align-last: center;
+		}
+		h2{
+			text-transform: uppercase;
+			padding-top: 25px;
+		}
+	}
+}
+
+.tabs-content-container{
+	border: 1px solid #ddd;
+    border-top: none;
+    .tabs-content{
+    	display: none;
+    	&.active{
+    		display: block;
+    	}
+    }
+}
+
+.feature{
+	text-align: center;
+	margin-top: 50px;
+	i{
+		font-size: 75px;
+	}
+	p{
+		padding: 20px 40px 20px 40px;
+	}
+	.feature-colors{
+		padding-top: 3rem;
+		min-height: 320px;
+	}
+}

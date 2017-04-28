@@ -1,0 +1,164 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manual de Marca</title>
+    <meta name="description" content="Base de html y css para la creación de sitios pertenecientes a la Administración Pública Nacional de la República Argentina.">
+    <meta name="author" content="Presidencia de la Nación">
+    <meta property="og:url" content="/poncho/docs/">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Manual de Marca - Ministerio de Producción">
+    <meta property="og:description" content="Base de html y css para la creación de sitios pertenecientes a la Administración Pública Nacional de la República Argentina.">
+    <meta property="og:image" content="/ejemplos/img/jumbotron.jpg">
+    <meta property="og:locale" content="es_AR">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- STYLE SHEETS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/roboto-fontface.css" rel="stylesheet">
+    <link href="dist/css/poncho.min.css" rel="stylesheet">
+    <link href="src/css/styles.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="top-nav">
+      <div class="container">
+        <div class="fixed-action-btn">
+          <a data-activates="nav-mobile" class="btn-floating btn-large button-collapse top-nav full">
+            <i class="material-icons">menu</i>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <ul id="nav-mobile" class="side-nav fixed" style="transform: translateX(0px);">
+      <li class="logo">
+        <div id="logo-container" class="brand-logo">
+          <a style="background-color:transparent;" href="" class="p-l-0">
+            <img src="img/logo-produccion-inverse.png">
+          </a>
+        </div>
+      </li>
+      <li class="no-padding">
+          <ul class="level-0 collapsible collapsible-accordion">
+            <li class="bold"><a data-toggle="#components" class="toggle-page collapsible-header waves-effect waves-light">Componentes</a>
+                <div class="collapsible-body">
+                  <ul class="level-1 collapsible collapsible-accordion">
+                <li><a href="#estilos" class="collapsible-header waves-effect waves-light">Estilos</a>
+                  <div class="collapsible-body">
+                    <ul class="level-2">
+                      <li><a href="#atajos" class="waves-effect waves-light">Atajos</a></li>
+                      <li><a href="#listados" class="waves-effect waves-light">Listados</a></li>
+                      <li><a href="#alertas" class="waves-effect waves-light">Alertas</a></li>
+                      <li><a href="#ejes" class="waves-effect waves-light">Ejes</a></li>
+                      <li><a href="#numeros" class="waves-effect waves-light">Números destacados</a></li>
+                      <li><a href="#citas" class="waves-effect waves-light">Citas</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#referencias" class="collapsible-header waves-effect waves-light">Referencias</a>
+                  <div class="collapsible-body">
+                    <ul class="level-2">
+                      <li><a href="#colores-texto" class="waves-effect waves-light">Colores de texto</a></li>
+                      <li><a href="#colores-fondo" class="waves-effect waves-light">Colores de fondo</a></li>
+                      <li><a href="#iconos" class="waves-effect waves-light">Íconos</a></li>
+                    </ul>
+                  </div>
+                </li>
+                  </ul>
+                </div>
+            </li>
+            <li class="bold"><a data-toggle="#categorizacion" class="toggle-page collapsible-header waves-effect waves-light">Normas de buen uso</a>
+                <div class="collapsible-body">
+                  <ul class="level-1 collapsible collapsible-accordion">
+                    <li><a data-toggle="#categorizacion" class="toggle-page waves-effect waves-light">Categorización de los Elementos</a></li>
+                    <li><a data-toggle="#isologotipo" class="toggle-page waves-effect waves-light">Isologotipo</a></li>
+                    <li><a data-toggle="#tipografias" class="toggle-page waves-effect waves-light">Tipografias</a></li>
+                    <li><a data-toggle="#fotograficos" class="toggle-page waves-effect waves-light">Estilos Fotográficos</a></li>
+                    <li><a data-toggle="#general" class="toggle-page waves-effect waves-light">Recomendaciones Generales</a></li>
+                    <li><a data-toggle="#ejemplos" class="toggle-page waves-effect waves-light">Ejemplos</a></li>
+                  </ul>
+                </div>
+            </li>
+            <li class="bold"><a data-toggle="#templates-landing" class="toggle-page collapsible-header waves-effect waves-light">Templates</a>
+                <div class="collapsible-body">
+                  <ul class="level-1">
+                    <li>
+                      <ul class="level-1 collapsible collapsible-accordion">
+                        <li><a class="collapsible-header waves-effect waves-light">Landings</a>
+                          <div class="collapsible-body">
+                            <ul class="level-2">
+                              <li><a data-toggle="#reina" class="toggle-page waves-effect waves-light">Reina</a></li>
+                              <li><a data-toggle="#media-kit" class="toggle-page waves-effect waves-light">Media Kit</a></li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <ul class="level-1 collapsible collapsible-accordion">
+                        <li><a data-toggle="#tradicional" class="toggle-page waves-effect waves-light">Página Tradicional</a></li>
+                        <li><a data-toggle="#clasificador" class="toggle-page waves-effect waves-light">Clasificador</a></li>
+                        <li><a data-toggle="#eventos" class="toggle-page waves-effect waves-light">Eventos</a></li>
+                        <li><a data-toggle="#derivador" class="toggle-page waves-effect waves-light">Derivador</a></li>
+                        <li><a data-toggle="#tramite-individual" class="toggle-page waves-effect waves-light">Trámite</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+            </li>
+          </ul>
+      </li>
+    </ul>
+  </header>
+
+  <main id="docs" role="main">
+
+      <div id="landing" data-big="0" class="active page-element" w3-include-html="modules/landing.html"></div>
+      <div id="components" data-big="0" class="page-element" w3-include-html="modules/components.html"></div>
+      <div id="templates-landing" data-big="0" class="page-element" w3-include-html="modules/templates-landing.html"></div>
+      <div class="recomendaciones">
+        <div id="isologotipo" class="page-element" w3-include-html="modules/recomendaciones/normas/isologotipo.html"></div>
+        <div id="tipografias" class="page-element" w3-include-html="modules/recomendaciones/normas/tipografias.html"></div>
+        <div id="fotograficos" class="page-element" w3-include-html="modules/recomendaciones/normas/fotograficos.html"></div>
+        <div id="objetivos" class="page-element" w3-include-html="modules/recomendaciones/objetivos.html"></div>
+        <div id="categorizacion" class="page-element" w3-include-html="modules/recomendaciones/categorizacion.html"></div>
+        <div id="general" class="page-element" w3-include-html="modules/recomendaciones/general.html"></div>
+        <div id="ejemplos" class="page-element" w3-include-html="modules/recomendaciones/ejemplos.html"></div>
+      </div>
+      <div class="templates">
+        <div id="reina" data-big="0" class="page-element" w3-include-html="modules/templates/reina.html"></div>
+        <div id="media-kit" data-big="0" class="page-element" w3-include-html="modules/templates/media-kit.html"></div>
+        <div id="eventos" data-big="0" class="page-element" w3-include-html="modules/templates/eventos.html"></div>
+        <div id="derivador" data-big="0" class="page-element" w3-include-html="modules/templates/derivador.html"></div>
+        <div id="clasificador" data-big="0" class="page-element" w3-include-html="modules/templates/clasificador.html"></div>
+        <div id="tradicional" data-big="0" class="page-element" w3-include-html="modules/templates/tradicional.html"></div>
+        <div id="tramite-individual" data-big="0" class="page-element" w3-include-html="modules/templates/tramite-individual.html"></div>
+      </div>
+
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
+
+  <script src="https://www.w3schools.com/lib/w3data.js"></script>
+  
+  <script>
+    w3IncludeHTML();
+  </script>
+
+  <script src="assets/js/prism.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/materialize.min.js" type="text/javascript"></script>
+  <script src="assets/js/init.js" type="text/javascript"></script>
+
+</body>
+</html>
