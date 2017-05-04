@@ -41,7 +41,8 @@ pre[class*="language-"] {
   background: #ededed !important; }
 
 .docs-colores {
-  float: left; }
+  /*float: left; */
+}
   .docs-colores span {
     color: #fff;
     text-align: center;
