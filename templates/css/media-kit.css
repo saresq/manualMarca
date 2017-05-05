@@ -1,0 +1,907 @@
+/* Resources */
+@keyframes toRight {
+  from {
+    transform: translateX(-1000px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes toLeft {
+  from {
+    transform: translateX(1000px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes lightenWhite {
+  from {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  to {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}
+@keyframes lightenPrimary {
+  from {
+    background-color: rgba(6, 149, 214, 0);
+  }
+  to {
+    background-color: rgba(6, 149, 214, 0.2);
+  }
+}
+@keyframes upAndDown {
+  0% {
+    padding-top: 12px;
+  }
+  50% {
+    padding-top: 20px;
+  }
+  100% {
+    padding-top: 12px;
+  }
+}
+/* line 5, templates/_derivador.scss */
+.form-group .small-search.input-group .input-group-btn .btn-default {
+  padding: 5px 15px 5px 15px;
+  border: none;
+  border-radius: 0px;
+  height: 30px;
+}
+
+/* line 1, templates/_eventos.scss */
+body {
+  font-family: "Roboto", sans-serif !important;
+  overflow-x: hidden;
+}
+
+/* line 6, templates/_eventos.scss */
+.icons-row {
+  text-align: center;
+  padding-top: 30px;
+}
+/* line 10, templates/_eventos.scss */
+.icons-row .btn i {
+  min-width: 25px;
+  font-size: 25px;
+}
+
+/* line 18, templates/_eventos.scss */
+.jumbotron.eventos {
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 22, templates/_eventos.scss */
+.jumbotron.eventos .blue-overlay {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top: 13vh;
+  background-color: rgba(6, 149, 214, 0.7);
+  text-transform: uppercase;
+}
+/* line 29, templates/_eventos.scss */
+.jumbotron.eventos .blue-overlay h1 {
+  color: white;
+  margin: 0px;
+  font-size: 40px;
+}
+/* line 34, templates/_eventos.scss */
+.jumbotron.eventos .blue-overlay h2 {
+  color: white;
+  margin: 0px;
+  font-size: 32px;
+}
+/* line 39, templates/_eventos.scss */
+.jumbotron.eventos .blue-overlay h3 {
+  color: white;
+  margin: 0px;
+  font-size: 24px;
+}
+@media screen and (max-width: 600px) {
+  /* line 47, templates/_eventos.scss */
+  .jumbotron.eventos .blue-overlay h1 {
+    font-size: 26px !important;
+  }
+  /* line 50, templates/_eventos.scss */
+  .jumbotron.eventos .blue-overlay h2 {
+    font-size: 18px;
+  }
+  /* line 53, templates/_eventos.scss */
+  .jumbotron.eventos .blue-overlay h3 {
+    font-size: 18px;
+  }
+}
+/* line 58, templates/_eventos.scss */
+.jumbotron.eventos .blue-overlay .first-half {
+  text-align: right;
+  border-right: 4px solid white;
+  padding-right: 30px;
+}
+/* line 63, templates/_eventos.scss */
+.jumbotron.eventos .blue-overlay .second-half {
+  text-align: left;
+  padding-left: 30px;
+}
+
+/* line 71, templates/_eventos.scss */
+.event-description {
+  text-align: center;
+}
+/* line 74, templates/_eventos.scss */
+.event-description h4 {
+  font-weight: normal;
+}
+
+/* line 79, templates/_eventos.scss */
+.map-container {
+  padding-bottom: 0px;
+}
+/* line 81, templates/_eventos.scss */
+.map-container #map {
+  height: 400px;
+  width: 100%;
+}
+
+/* line 87, templates/_eventos.scss */
+.jscroll-loading {
+  text-align: center;
+}
+/* line 89, templates/_eventos.scss */
+.jscroll-loading img {
+  width: 40px;
+}
+
+/* line 95, templates/_eventos.scss */
+.main-footerfooter {
+  margin: 0px;
+}
+
+/* line 1, templates/_global.scss */
+html, body {
+  height: auto !important;
+  min-height: 100% !important;
+}
+
+@media screen and (min-width: 769px) {
+  /* line 9, templates/_global.scss */
+  .panel-icon .panel-body h3 {
+    height: 54px;
+  }
+}
+@media screen and (max-width: 420px) {
+  /* line 22, templates/_global.scss */
+  .navbar.navbar-default .container .navbar-header .navbar-brand img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 991px) {
+  /* line 37, templates/_global.scss */
+  .panel-md .panel-body h4 {
+    height: 42px;
+  }
+}
+@media screen and (min-width: 991px) {
+  /* line 48, templates/_global.scss */
+  .panel-md .panel-body p {
+    height: 250px;
+  }
+}
+/* line 57, templates/_global.scss */
+.btn .fa.fa-3x {
+  font-size: 3em;
+}
+
+/* line 65, templates/_global.scss */
+.panel-icon .panel-heading.bg-white {
+  background-color: white;
+}
+/* line 67, templates/_global.scss */
+.panel-icon .panel-heading.bg-white i, .panel-icon .panel-heading.bg-white p {
+  color: black;
+}
+
+/* line 75, templates/_global.scss */
+.jumbotron.derivador {
+  text-align: center;
+}
+/* line 77, templates/_global.scss */
+.jumbotron.derivador p {
+  text-align: justify;
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+/* line 82, templates/_global.scss */
+.jumbotron.derivador h2 {
+  text-transform: uppercase;
+  padding-top: 25px;
+}
+
+/* line 89, templates/_global.scss */
+.tabs-content-container {
+  border: 1px solid #ddd;
+  border-top: none;
+}
+/* line 92, templates/_global.scss */
+.tabs-content-container .tabs-content {
+  display: none;
+}
+/* line 94, templates/_global.scss */
+.tabs-content-container .tabs-content.active {
+  display: block;
+}
+
+/* line 100, templates/_global.scss */
+.feature {
+  text-align: center;
+  margin-top: 50px;
+}
+/* line 103, templates/_global.scss */
+.feature i {
+  font-size: 75px;
+}
+/* line 106, templates/_global.scss */
+.feature p {
+  padding: 20px 40px 20px 40px;
+}
+/* line 109, templates/_global.scss */
+.feature .feature-colors {
+  padding-top: 3rem;
+  min-height: 320px;
+}
+
+/* line 1, templates/_informativo.scss */
+.jscroll-loading {
+  text-align: center;
+}
+/* line 3, templates/_informativo.scss */
+.jscroll-loading img {
+  width: 40px;
+}
+
+/* line 9, templates/_informativo.scss */
+.icons-footer .icon-item {
+  text-align: center;
+}
+/* line 11, templates/_informativo.scss */
+.icons-footer .icon-item i {
+  font-size: 3em;
+}
+/* line 14, templates/_informativo.scss */
+.icons-footer .icon-item h3 {
+  font-size: 1.3em;
+}
+/* line 17, templates/_informativo.scss */
+.icons-footer .icon-item ul {
+  list-style: none;
+  padding-left: 0px;
+}
+/* line 20, templates/_informativo.scss */
+.icons-footer .icon-item ul p {
+  font-size: 16px;
+}
+
+/* line 3, templates/_media-kit.scss */
+section {
+  overflow-x: hidden;
+}
+
+/* line 7, templates/_media-kit.scss */
+section {
+  position: relative;
+}
+
+/* line 11, templates/_media-kit.scss */
+section:focus {
+  outline: none !important;
+}
+
+/* line 15, templates/_media-kit.scss */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* line 19, templates/_media-kit.scss */
+.full-height {
+  min-height: 100vh;
+}
+
+/* line 24, templates/_media-kit.scss */
+.numeros-destacados.full-height {
+  padding-top: 4vh;
+  padding-bottom: 82px;
+}
+@media screen and (max-width: 768px) {
+  /* line 24, templates/_media-kit.scss */
+  .numeros-destacados.full-height {
+    padding-bottom: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 32, templates/_media-kit.scss */
+  .numeros-destacados h2 {
+    padding-top: calc(50px - 4vh);
+    text-align: center;
+  }
+}
+/* line 37, templates/_media-kit.scss */
+.numeros-destacados .numbers-panel {
+  text-align: center;
+  padding-top: 20px;
+  height: 230px;
+}
+@media screen and (max-width: 768px) {
+  /* line 37, templates/_media-kit.scss */
+  .numeros-destacados .numbers-panel {
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+/* line 46, templates/_media-kit.scss */
+.numeros-destacados .numbers-panel .feature-icon {
+  font-size: 70px;
+  padding: 0 0 30px 0;
+}
+@media screen and (max-width: 991px) {
+  /* line 52, templates/_media-kit.scss */
+  .numeros-destacados h2 {
+    padding-bottom: 50px;
+  }
+  /* line 55, templates/_media-kit.scss */
+  .numeros-destacados .numbers {
+    padding: 0px;
+  }
+  /* line 58, templates/_media-kit.scss */
+  .numeros-destacados .numbers.row > div {
+    margin-bottom: 0;
+  }
+}
+
+/* line 66, templates/_media-kit.scss */
+.infografia {
+  padding-top: 0px;
+  overflow: hidden;
+  padding-bottom: 82px;
+}
+@media screen and (max-width: 1199px) {
+  /* line 66, templates/_media-kit.scss */
+  .infografia {
+    padding-top: 100px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 66, templates/_media-kit.scss */
+  .infografia {
+    height: 100vh;
+    min-height: 730px;
+  }
+}
+
+/* line 80, templates/_media-kit.scss */
+.img-and-text.full-height {
+  padding: 0px;
+}
+/* line 83, templates/_media-kit.scss */
+.img-and-text .background-img {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 768px) {
+  /* line 83, templates/_media-kit.scss */
+  .img-and-text .background-img {
+    display: none;
+  }
+}
+/* line 91, templates/_media-kit.scss */
+.img-and-text .text-container {
+  padding: 2em 4em;
+}
+@media screen and (max-width: 768px) {
+  /* line 91, templates/_media-kit.scss */
+  .img-and-text .text-container {
+    padding: 2em 2em;
+  }
+}
+
+/* line 100, templates/_media-kit.scss */
+.contact-us.full-height {
+  padding-bottom: 82px;
+}
+
+/* line 107, templates/_media-kit.scss */
+.next-section.white i {
+  color: white;
+  border-color: white;
+}
+/* line 110, templates/_media-kit.scss */
+.next-section.white i:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  animation-name: lightenWhite;
+  animation-duration: 1s;
+}
+
+/* line 119, templates/_media-kit.scss */
+.next-section {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  /* line 119, templates/_media-kit.scss */
+  .next-section {
+    display: none;
+  }
+}
+/* line 126, templates/_media-kit.scss */
+.next-section i {
+  width: 62px;
+  height: 77px;
+  color: #0695d6;
+  font-size: 42px;
+  padding: 5px;
+  padding-top: 12px;
+  border: 2px solid #0695d6;
+  border-bottom: none;
+  border-radius: 45px 45px 0px 0px;
+  animation-name: upAndDown;
+  animation-duration: 1s;
+  animation-iteration-count: 3;
+}
+/* line 136, templates/_media-kit.scss */
+.next-section i:hover {
+  background-color: rgba(6, 149, 214, 0.2);
+  animation-name: lightenPrimary;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+/* line 148, templates/_media-kit.scss */
+.jumbotron.full-height {
+  padding-top: 13vh;
+}
+
+@media screen and (min-width: 991px) {
+  /* line 152, templates/_media-kit.scss */
+  .fixed {
+    background-attachment: fixed;
+  }
+}
+
+/* line 160, templates/_media-kit.scss */
+.jumbotron.full-height.intro {
+  padding-top: 11vh;
+  min-height: -webkit-calc(100vh - 72px);
+  min-height: -moz-calc(100vh - 72px);
+  min-height: -o-calc(100vh - 72px);
+  min-height: calc(100vh - 72px);
+}
+@media screen and (max-width: 491px) {
+  /* line 160, templates/_media-kit.scss */
+  .jumbotron.full-height.intro {
+    padding-top: 8vh;
+    min-height: -webkit-calc(100vh - 64px);
+    min-height: -moz-calc(100vh - 64px);
+    min-height: -o-calc(100vh - 64px);
+    min-height: calc(100vh - 64px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 179, templates/_media-kit.scss */
+  .bring-from-left, .bring-from-right, .animated-many-to-left {
+    opacity: 0;
+  }
+}
+
+/* line 186, templates/_media-kit.scss */
+.active-animation .bring-from-left {
+  opacity: 1;
+  animation-name: toRight;
+  animation-duration: 1s;
+}
+/* line 191, templates/_media-kit.scss */
+.active-animation .bring-from-right {
+  opacity: 1;
+  animation-name: toLeft;
+  animation-duration: 1s;
+}
+
+/* line 198, templates/_media-kit.scss */
+.animated-fade-in {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+/* line 203, templates/_media-kit.scss */
+.form-control {
+  margin-bottom: 30px;
+}
+
+/* line 207, templates/_media-kit.scss */
+.submit-form {
+  width: 200px;
+}
+
+/* line 212, templates/_media-kit.scss */
+textarea.form-control {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px 20px;
+}
+/* line 213, templates/_media-kit.scss */
+textarea.form-control::placeholder {
+  color: #777777;
+}
+
+/* line 222, templates/_media-kit.scss */
+.icon-badge {
+  border-radius: 50%;
+}
+/* line 224, templates/_media-kit.scss */
+.icon-badge i {
+  width: 1em;
+  height: 1em;
+}
+
+/* line 231, templates/_media-kit.scss */
+.active-animation .animated-many-to-left {
+  opacity: 1;
+}
+/* line 234, templates/_media-kit.scss */
+.active-animation .animated-many-to-left .animated-item:nth-child(1) {
+  animation-name: toLeft;
+  animation-duration: 1000ms;
+}
+/* line 238, templates/_media-kit.scss */
+.active-animation .animated-many-to-left .animated-item:nth-child(5) {
+  animation-name: toLeft;
+  animation-duration: 1500ms;
+}
+/* line 242, templates/_media-kit.scss */
+.active-animation .animated-many-to-left .animated-item:nth-child(2) {
+  animation-name: toLeft;
+  animation-duration: 1300ms;
+}
+/* line 246, templates/_media-kit.scss */
+.active-animation .animated-many-to-left .animated-item:nth-child(6) {
+  animation-name: toLeft;
+  animation-duration: 1800ms;
+}
+/* line 250, templates/_media-kit.scss */
+.active-animation .animated-many-to-left .animated-item:nth-child(3) {
+  animation-name: toLeft;
+  animation-duration: 1600ms;
+}
+/* line 254, templates/_media-kit.scss */
+.active-animation .animated-many-to-left .animated-item:nth-child(7) {
+  animation-name: toLeft;
+  animation-duration: 2100ms;
+}
+/* line 258, templates/_media-kit.scss */
+.active-animation .animated-many-to-left .animated-item:nth-child(4) {
+  animation-name: toLeft;
+  animation-duration: 1900ms;
+}
+/* line 262, templates/_media-kit.scss */
+.active-animation .animated-many-to-left .animated-item:nth-child(8) {
+  animation-name: toLeft;
+  animation-duration: 2400ms;
+}
+
+/* line 1, templates/_tramites.scss */
+html {
+  overflow-x: hidden;
+}
+
+/* line 5, templates/_tramites.scss */
+main {
+  min-height: -webkit-calc(100vh - 224px);
+  min-height: -moz-calc(100vh - 224px);
+  min-height: calc(100vh - 224px);
+}
+
+/* line 14, templates/_tramites.scss */
+#filter-options.collapse.navbar-collapse {
+  padding: 0px;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+/* line 22, templates/_tramites.scss */
+#filter-options :not(.before-select):not(.active) .panel-default {
+  background-color: rgba(60, 60, 60, 0.2) !important;
+  color: rgba(0, 0, 0, 0.1) !important;
+  box-shadow: none;
+}
+/* line 30, templates/_tramites.scss */
+#filter-options .active .panel-default {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: #111;
+}
+/* line 37, templates/_tramites.scss */
+#filter-options .before-select .panel-default {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: #111;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 47, templates/_tramites.scss */
+  .tramite-detalles .panel-body p {
+    min-height: 50px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 47, templates/_tramites.scss */
+  .tramite-detalles .panel-body p {
+    min-height: 100px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  /* line 60, templates/_tramites.scss */
+  .categories {
+    display: none;
+  }
+}
+/* line 67, templates/_tramites.scss */
+#grid .panel-body p {
+  font-size: 14px;
+}
+
+/* DeWordpress */
+/* line 2, templates/_dewordpress.scss */
+html.flexbox {
+  margin: 0px !important;
+}
+
+/* line 8, templates/_dewordpress.scss */
+header nav {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* line 14, templates/_dewordpress.scss */
+footer.entry-meta {
+  display: none !important;
+}
+
+/* line 20, templates/_dewordpress.scss */
+.container h4 {
+  font-size: 1.714285em;
+}
+
+/* line 25, templates/_dewordpress.scss */
+.row {
+  margin-right: -15px !important;
+  margin-left: -15px !important;
+}
+
+/* line 30, templates/_dewordpress.scss */
+.navbar .navbar-brand {
+  margin-left: 0px !important;
+}
+/* line 32, templates/_dewordpress.scss */
+.navbar .navbar-brand img {
+  height: 50px;
+}
+
+/* line 38, templates/_dewordpress.scss */
+.navbar-default {
+  border-radius: 0px !important;
+  border: none !important;
+}
+/* line 43, templates/_dewordpress.scss */
+.navbar-default .nav li a {
+  color: #0695d6 !important;
+  text-decoration: none;
+}
+/* line 46, templates/_dewordpress.scss */
+.navbar-default .nav li a:hover {
+  background-color: #0695d6 !important;
+  color: white !important;
+}
+
+/* line 57, templates/_dewordpress.scss */
+.introduction .container h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: .5em 0;
+  color: #111;
+}
+/* line 63, templates/_dewordpress.scss */
+.introduction .container p {
+  color: #111;
+  line-height: 1.42857143;
+  text-align: left;
+}
+/* line 70, templates/_dewordpress.scss */
+.introduction .btn.btn-primary {
+  background-image: none;
+  border: 0;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 16px 25px;
+  text-transform: uppercase;
+  vertical-align: top;
+  white-space: initial;
+  word-break: initial;
+  background-color: #0695d6;
+  text-shadow: none;
+}
+/* line 83, templates/_dewordpress.scss */
+.introduction .btn.btn-primary:hover {
+  background-color: #17b2f8;
+  border: 0;
+}
+
+/* line 92, templates/_dewordpress.scss */
+.btn.btn-link {
+  border-radius: 4px;
+  color: #0695d6;
+  border: 0;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 16px 25px;
+  text-transform: uppercase;
+  vertical-align: top;
+  white-space: initial;
+  word-break: initial;
+}
+
+/* line 108, templates/_dewordpress.scss */
+.icon-item h3 {
+  color: #111;
+}
+/* line 111, templates/_dewordpress.scss */
+.icon-item ul {
+  color: #111;
+}
+
+/* line 118, templates/_dewordpress.scss */
+.navbar-nav .dropdown .dropdown-toggle {
+  width: auto !important;
+}
+/* line 120, templates/_dewordpress.scss */
+.navbar-nav .dropdown .dropdown-toggle:focus, .navbar-nav .dropdown .dropdown-toggle:active {
+  color: white !important;
+}
+/* line 123, templates/_dewordpress.scss */
+.navbar-nav .dropdown .dropdown-toggle .caret {
+  display: inline-block !important;
+}
+/* line 127, templates/_dewordpress.scss */
+.navbar-nav .dropdown .dropdown-menu {
+  width: auto;
+}
+/* line 130, templates/_dewordpress.scss */
+.navbar-nav .dropdown .dropdown-menu li a {
+  font-weight: normal;
+  text-align: left !important;
+  text-transform: uppercase;
+  color: white !important;
+  font-size: 16px;
+  padding: 12px 15px;
+}
+/* line 137, templates/_dewordpress.scss */
+.navbar-nav .dropdown .dropdown-menu li a:hover {
+  background-color: #17b2f8 !important;
+  background-image: none;
+}
+
+/* line 147, templates/_dewordpress.scss */
+.jumbotron {
+  border-radius: 0px !important;
+  padding: 0px !important;
+}
+/* line 153, templates/_dewordpress.scss */
+.jumbotron.eventos .blue-overlay h1, .jumbotron.eventos .blue-overlay h2, .jumbotron.eventos .blue-overlay h3 {
+  font-weight: 700;
+}
+/* line 160, templates/_dewordpress.scss */
+.jumbotron.derivador h2 {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+/* line 165, templates/_dewordpress.scss */
+.jumbotron.derivador p {
+  color: white;
+}
+/* line 168, templates/_dewordpress.scss */
+.jumbotron.derivador .form-group {
+  margin-top: 24px;
+  margin-bottom: 70px;
+}
+/* line 173, templates/_dewordpress.scss */
+.jumbotron.derivador .form-group .input-group.small-search input {
+  font-size: 18px;
+}
+/* line 176, templates/_dewordpress.scss */
+.jumbotron.derivador .form-group .input-group.small-search .btn-default {
+  background-image: none;
+  color: white;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* line 179, templates/_dewordpress.scss */
+.jumbotron.derivador .form-group .input-group.small-search .btn-default:hover, .jumbotron.derivador .form-group .input-group.small-search .btn-default:focus {
+  background-color: #838383;
+}
+
+/* line 195, templates/_dewordpress.scss */
+.form-group .input-group.big-search input {
+  font-size: 18px;
+  height: 54px;
+  padding: 6px 8px;
+}
+/* line 200, templates/_dewordpress.scss */
+.form-group .input-group.big-search .btn-default {
+  background-image: none;
+  color: white;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* line 203, templates/_dewordpress.scss */
+.form-group .input-group.big-search .btn-default:hover, .form-group .input-group.big-search .btn-default:focus {
+  background-color: #838383;
+}
+
+/* line 214, templates/_dewordpress.scss */
+.page-container {
+  padding: 0px !important;
+}
+
+/* line 219, templates/_dewordpress.scss */
+.panel.panel-default {
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  color: #111;
+  display: block;
+  text-decoration: none !important;
+}
+/* line 227, templates/_dewordpress.scss */
+.panel.panel-default .panel-heading {
+  background-image: none;
+}
+/* line 230, templates/_dewordpress.scss */
+.panel.panel-default .panel-body {
+  text-align: left;
+}
+/* line 232, templates/_dewordpress.scss */
+.panel.panel-default .panel-body h3 {
+  font-size: 1.5em;
+}
+/* line 235, templates/_dewordpress.scss */
+.panel.panel-default .panel-body h4 {
+  font-size: 1.2em;
+}
+
+/* line 242, templates/_dewordpress.scss */
+.event-description h4 {
+  font-size: 2em;
+}
+
+/* line 247, templates/_dewordpress.scss */
+footer {
+  margin: 0px !important;
+}
