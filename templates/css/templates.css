@@ -1,0 +1,109 @@
+/* line 1, templates/_eventos.scss */
+
+body {
+    font-family: "Roboto", sans-serif !important;
+    overflow-x: hidden;
+}
+
+
+/* line 1, templates/_global.scss */
+
+html, body {
+    height: auto !important;
+    min-height: 100% !important;
+}
+
+
+/* line 1, templates/_tramites.scss */
+
+html {
+    overflow-x: hidden;
+}
+
+
+/* line 5, templates/_tramites.scss */
+
+main {
+    min-height: -webkit-calc(100vh - 107px);
+    min-height: -moz-calc(100vh - 107px);
+    min-height: calc(100vh - 107px);
+}
+
+
+/* line 247, templates/_dewordpress.scss */
+
+footer {
+    margin: 0px !important;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: -webkit-calc(100vh - 107px);
+    min-height: -moz-calc(100vh - 107px);
+    min-height: calc(100vh - 107px);
+    width: 100%;
+}
+
+.flex-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: -webkit-calc(100vh - 107px);
+    min-height: -moz-calc(100vh - 107px);
+    min-height: calc(100vh - 107px);
+    width: 100%;
+}
+
+.img-cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+/*input {
+  font-size: 14px !important;
+}*/
+
+.holder {
+    border-radius: 4px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.popover {
+    background: #fcf8e3;
+}
+
+@media (min-width: 1024px) {
+    .holder-padding {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .ayuda {
+        position: absolute;
+        bottom: 50;
+        right: 60;
+    }
+    .bg-cert {
+        background-image: url(../img/0.jpg);
+    }
+}
+
+@media (min-width: 768px) {
+    .bg-cert {
+        background-image: url(../img/0.jpg);
+    }
+}
+
+@media (max-width: 1024px) {
+    .ayuda {
+        position: absolute;
+        bottom: 50;
+        right: 35;
+    }
+    .bg-cert {
+        background-color: #01bdf2;
+    }
+}
